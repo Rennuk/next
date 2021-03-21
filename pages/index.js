@@ -23,7 +23,7 @@ export const getStaticProps = async () => {
     "https://jsonplaceholder.typicode.com/posts?_limit=6"
   );
   const articles = await res.json();
-
+  // test
   return {
     props: {
       articles,
